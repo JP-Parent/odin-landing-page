@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     margin: 0px;
     font-family: 'Roboto', Courier, monospace;
+    min-height: 100vh;
 }
 
 ul {
@@ -19,12 +20,14 @@ a {
     font-size: 24px;
 }
 
-
-
-.header {
+.header, .footer{
     background-color: #1F2937;
     color: white;
+}
+
+.header {
     display: flex;
+    flex: auto;
     flex-direction: column;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -78,13 +81,13 @@ a {
 
 .information {
     display: flex;
+    flex: auto;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    padding: 20px 0px;
 }
 
 .cards {
@@ -117,6 +120,7 @@ a {
 
 .quote{
     display: flex;
+    flex: auto;
     flex-direction: column;
     background-color: #e5e7eb;
     color: #1F2937;
@@ -134,4 +138,12 @@ a {
     font-size: 18px;
     font-weight: bold;
     text-align: right;
+}
+
+.footer {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    min-height: 35px;
 }
