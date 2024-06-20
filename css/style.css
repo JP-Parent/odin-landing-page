@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    font-family: 'Roboto', Courier, monospace;
 }
 
 ul {
@@ -32,7 +33,7 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 16px 50px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 .links {
@@ -49,7 +50,7 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 16px 50px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 .main .header-logo {
@@ -83,7 +84,7 @@ a {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    padding: 50px 0px;
+    padding: 20px 0px;
 }
 
 .cards {
@@ -111,4 +112,26 @@ a {
 .image-text{
     max-width: 200px;
     text-align: center;
+}
+
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    color: #1F2937;
+    padding: 25px 500px;
+}
+
+.quote-text {
+    text-align: left;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
 }
